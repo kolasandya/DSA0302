@@ -1,22 +1,15 @@
 import nltk
-from nltk import word_tokenize, RegexpTagger
-
-nltk.download('punkt')
 
 patterns = [
     (r'.*ing$', 'VBG'),
     (r'.*ed$', 'VBD'),
-    (r'.*es$', 'VBZ'),
-    (r'.*ould$', 'MD'),
-    (r'.*\'s$', 'NN$'),
-    (r'.*s$', 'NNS'),
-    (r'^[0-9]+$', 'CD'),
+    (r'.*ly$', 'RB'),
+    (r'.*ness$', 'NN'),
     (r'.*', 'NN')
 ]
 
-tagger = RegexpTagger(patterns)
+tagger = nltk.RegexpTagger(patterns)
 
-sentence = "The boys are playing football"
-words = word_tokenize(sentence)
+words = ["playing", "walked", "quickly", "happiness", "dog"]
 
 print(tagger.tag(words))
