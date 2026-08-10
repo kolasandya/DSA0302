@@ -1,0 +1,7 @@
+Python 3.14.4 (tags/v3.14.4:23116f9, Apr  7 2026, 14:10:54) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+>>> 
+======= RESTART: C:/Users/K sandhya/OneDrive/Documents/CO3 AT1 TASK 1.py =======
+Unigram: Counter({'the': 5, 'student': 3, 'is': 3, 'computer': 2, 'teacher': 2, 'intelligent': 1, 'hardworking': 1, 'studies': 1, 'helpful': 1, 'teaches': 1})
+Bigram: Counter({('the', 'student'): 3, ('student', 'is'): 2, ('the', 'teacher'): 2, ('is', 'intelligent'): 1, ('intelligent', 'the'): 1, ('is', 'hardworking'): 1, ('hardworking', 'the'): 1, ('student', 'studies'): 1, ('studies', 'computer'): 1, ('computer', 'the'): 1, ('teacher', 'is'): 1, ('is', 'helpful'): 1, ('helpful', 'the'): 1, ('teacher', 'teaches'): 1, ('teaches', 'computer'): 1})
+Trigram: Counter({('the', 'student', 'is'): 2, ('student', 'is', 'intelligent'): 1, ('is', 'intelligent', 'the'): 1, ('intelligent', 'the', 'student'): 1, ('student', 'is', 'hardworking'): 1, ('is', 'hardworking', 'the'): 1, ('hardworking', 'the', 'student'): 1, ('the', 'student', 'studies'): 1, ('student', 'studies', 'computer'): 1, ('studies', 'computer', 'the'): 1, ('computer', 'the', 'teacher'): 1, ('the', 'teacher', 'is'): 1, ('teacher', 'is', 'helpful'): 1, ('is', 'helpful', 'the'): 1, ('helpful', 'the', 'teacher'): 1, ('the', 'teacher', 'teaches'): 1, ('teacher', 'teaches', 'computer'): 1})
